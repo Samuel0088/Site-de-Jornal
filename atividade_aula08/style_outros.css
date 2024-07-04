@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+nav>span>a:hover, .selecionado a{
+    background-color: #e50040;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+#navegacao {
+    background-color: #b10333;
+    margin-left: 250px;
+    margin-right: 250px;
+    word-spacing: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+.Links:hover {
+    color: #69001d;
+}
+

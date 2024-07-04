@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav>span>a:hover, .selecionado a{
+    background-color: #e50040;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+#navegacao {
+    background-color: #b10333;
+    margin-left: 250px;
+    margin-right: 250px;
+    word-spacing: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+.Links:hover {
+    color: #69001d;
+}
+
+/* layout de 3 colunas */
+
+#margemConteudo {
+    margin-top: 50px;
+    background: white;
+}
+
+#primeiro {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma #primeiro {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#duas #primeiro {
+    width: 550px;
+}
+
+#lado {
+    width: 150px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#conteudo-entrevistas {
+    margin-left: 180px;
+}
+
+#links-entrevistas {
+    background-color: white;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.alinhar-links {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background: url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: gray;
+}
+
+.entrevista-link {
+    border-bottom: solid 2px #f3f3f3;
+}
+
+#fundo-entrevistas {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 250px;
+    padding: 15px;
+}
+
+#conteudo-news {
+    padding-top: 400px;
+}
+
+#fundo-news-branco {
+    background-color: white;
+}
+
+#espacamento-form {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#fundo-news {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 250px;
+    padding: 15px;
+}
+
+#titulo-azul-news {
+    background-color: #294c71;
+    width: 250px;
+    height: 38px;
+}
+
+#form {
+    width: 170px;
+    height: 30px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid gray 2px;
+    border-right: solid gray 2px;
+    padding-left: 5px;
+}
+
+#botao-form {
+    width: 100px;
+    height: 30px;
+    background-color: #e50040;
+    border: #69001d 2px solid;
+    color: white;
+}
+
+#titulo-azul-entrevista {
+    background-color: #294c71;
+    width: 250px;
+    height: 38px;
+}
+
+#conteudo3 {
+    margin-left: 300px;
+}
+
+#segundo {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+.titulo-azul {
+    background-color: #294c71;
+    width: 550px;
+    height: 40px;
+}
+
+#texto-titulo {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+.titulo-vermelho {
+    background-color:#e50040;
+    width: 180px;
+    height: 30px;
+}
+
+#texto-titulo3 {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+#fundo3 {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 550px;
+    padding: 15px;
+}
+
+#alinhar {
+    padding-right: 150px;
+}
+
+#fundo-legislacao {
+    background-color: white;
+    padding: 10px;
+}
+
+#taxi-imagem {
+    border: solid gray 3px;
+}
+
+#leia-mais {
+    color:#e50040;
+}
+
+#novas-tecnologias {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#texto {
+    text-decoration: none;
+    color: black;
+}
+
+#titulo {
+    color: #3e7ab9;
+}
+
+#conteudo4 {
+    margin-left: 315px;
+}
+
+#fundo4 {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 550px;
+    padding: 15px;
+}
+
+#conteudo4 {
+    padding-top: 100px;
+}
+
+#titulo4 {
+    padding-left: 110px;
+    color: #3e7ab9;
+}
+
+#texto-tecnologia4 {
+    padding-left: 105px;
+}
+
+#img-tecnologia {
+    padding-top: 5px;
+}
+
+#alinhar-texto {
+    position: relative;
+    bottom: 60px;
+}
+
+#novas-tecnologias:hover {
+    background-color: #f3f3f3;
+}
+
+footer {
+    background-color: #294c71;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

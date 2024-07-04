@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav>span>a:hover, .selecionado a{
+    background-color: #e50040;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+#navegacao {
+    background-color: #b10333;
+    margin-left: 250px;
+    margin-right: 250px;
+    word-spacing: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+.Links:hover {
+    color: #69001d;
+}
+
+/* layout de 3 colunas */
+
+#margemConteudo {
+    margin-top: 50px;
+    background: white;
+}
+
+#primeiro {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma #primeiro {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#duas #primeiro {
+    width: 550px;
+}
+
+#lado {
+    width: 150px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#conteudo-destaque {
+    margin-left: 250px;
+}
+
+#fundo-destaque {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 330px;
+    padding: 15px;
+}
+
+.titulo-azul {
+    background-color: #294c71;
+    width: 330px;
+    height: 40px;
+}
+
+.titulo-vermelho {
+    background-color:#e50040;
+    width: 150px;
+    height: 25px;
+}
+
+#texto-titulo {
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#texto-titulo2 {
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#taxi-imagem {
+    border: gray solid 3px;
+}
+
+#fundo-branco {
+    background-color: white;
+    padding: 10px;
+}
+
+#leia-mais {
+    color: #e50040;
+}
+
+#conteudo-ultima-entrevista {
+    margin-left: 150px;
+}
+
+#fundo-ultima-entrevista {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 330px;
+    padding: 15px;
+}
+
+#titulo-vermelho-ultima-entrevista {
+    width: 280px;
+    background-color: #e50040;
+    height: 25px;
+}
+
+#doutor-imagem {
+    border: gray solid 3px;
+}
+
+#conteudo-entrevistas {
+    margin-left: 180px;
+}
+
+#links-entrevistas {
+    background-color: white;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.alinhar-links {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background: url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: gray;
+}
+
+.entrevista-link {
+    border-bottom: solid 2px #f3f3f3;
+}
+
+#fundo-entrevistas {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+    
+}
+
+#conteudo-news {
+    padding-top: 400px;
+}
+
+#fundo-news-branco {
+    background-color: white;
+}
+
+#espacamento-form {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#fundo-news {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+}
+
+#titulo-azul-news {
+    background-color: #294c71;
+    width: 200px;
+    height: 38px;
+}
+
+#form {
+    width: 170px;
+    height: 30px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid gray 2px;
+    border-right: solid gray 2px;
+    padding-left: 5px;
+}
+
+#botao-form {
+    width: 100px;
+    height: 30px;
+    background-color: #e50040;
+    border: #69001d 2px solid;
+    color: white;
+}
+
+#titulo-azul-entrevista {
+    background-color: #294c71;
+    width: 200px;
+    height: 38px;
+}
+
+#conteudo-mundo {
+    margin-left: 270px;
+}
+
+#fundo-mundo {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 325px;
+    padding: 15px;
+}
+
+#titulo-mundo {
+    padding-left: 110px;
+    color: #3e7ab9;
+}
+
+#texto-tecnologia-mundo {
+    padding-left: 105px;
+}
+
+#img-tecnologia {
+    padding-top: 5px;
+}
+
+#alinhar-texto {
+    position: relative;
+    bottom: 60px;
+}
+
+#novas-tecnologias:hover {
+    background-color: #f3f3f3;
+}
+
+#novas-tecnologias {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#texto {
+    text-decoration: none;
+    color: black;
+}
+
+#conteudo-noticias-recentes {
+    margin-left: 610px;
+}
+
+#fundo-noticias {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 325px;
+    padding: 15px;
+}
+
+#titulo-noticias {
+    padding-left: 110px;
+    color: #3e7ab9;
+}
+
+#texto-tecnologia-noticias {
+    padding-left: 105px;
+}
+
+#img-tecnologia {
+    padding-top: 5px;
+}
+
+#alinhar-texto {
+    position: relative;
+    bottom: 60px;
+}
+
+#novas-tecnologias:hover {
+    background-color: #f3f3f3;
+}
+
+#novas-tecnologias {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#texto {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #294c71;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
